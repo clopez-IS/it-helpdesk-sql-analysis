@@ -1,7 +1,7 @@
 
 -- IT Helpdesk Ticket Analysis
--- Analysis: Unresolved Critical Tickets
--- Purpose: Identify high-risk tickets requiring investigation or escalation
+-- Analysis: Unresolved Backlog by Priority
+-- Purpose: Summarize unresolved ticket volume, status, and age by priority
 
 
 SELECT
