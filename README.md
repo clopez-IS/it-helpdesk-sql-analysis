@@ -95,7 +95,7 @@ The Google Sheets dashboard presents key performance indicators and visualizatio
 ## Project Structure
 
 ```text
-it-helpdesk-ticket-analysis/
+it-helpdesk-sql-analysis/
 ├── dashboard/
 │   └── dashboard_screenshot.png
 ├── sql/
@@ -103,7 +103,7 @@ it-helpdesk-ticket-analysis/
 │   ├── 02_resolution_analysis.sql
 │   ├── 03_technician_analysis.sql
 │   ├── 04_backlog_analysis.sql
-|   ├── 05_category_risk_analysis.sql
+│   └── 05_category_risk_analysis.sql
 └── README.md
 ```
 
