@@ -57,9 +57,9 @@ Two tickets involved suspicious software or a possible malware alert, warranting
 
 ### 5. Resolution Performance Changes Over Time
 
-The monthly analysis showed an average resolution time of 7.28 days in March 2026, compared with 4.91 days in February 2026.
+**Monthly Resolution Trends:** Average resolution time increased from 5.43 days in February 2026 to 6.34 days in March 2026.
 
-**Business implication:** Management could investigate changes in ticket complexity, staffing, and workload to understand the increase.
+**Business implication:** Management could investigate changes in ticket complexity, staffing, and workload distribution to understand the increase and identify opportunities to improve resolution efficiency.
 
 ## SQL Analysis Performed
 
