@@ -28,3 +28,25 @@ LEFT JOIN technicians AS tech
 WHERE t.status != 'Resolved'
 GROUP BY tech.name
 ORDER BY unresolved_tickets DESC;
+
+
+-- Analysis: Technician Resolution Performance
+-- Purpose: Compare resolved ticket volume and average resolution time by technician
+
+SELECT
+    tech.name AS technician_name,
+    COUNT(*) AS resolved_tickets,
+    ROUND(
+        AVG(
+            julianday(t.resolved_date) - julianday(t.created_date)
+        ),
+        2
+    ) AS avg_resolution_days
+FROM tickets AS t
+LEFT JOIN technicians AS tech
+    ON t.technician_id = tech.technician_id
+WHERE t.status = 'Resolved'
+  AND t.resolved_date IS NOT NULL
+GROUP BY tech.name
+ORDER BY avg_resolution_days ASC;
+
