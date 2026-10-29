@@ -43,7 +43,7 @@ Seven of the 11 unresolved Software tickets were classified as High or Critical,
 
 ### 3. Technician Workloads Differ
 
-James Wilson had the largest unresolved workload, with 18 tickets. Olivia Brown had seven unresolved High/Critical tickets, while Daniel Kim's unresolved tickets had the highest average age at 255.24 days.
+James Wilson had the largest unresolved workload, with 18 tickets. Olivia Brown had seven unresolved High/Critical tickets, while Daniel Kim's assigned unresolved tickets had the highest average age in the latest query results, at approximately 255 days.
 
 **Business implication:** Reviewing workload distribution, ticket complexity, priority mix, and assignment history could help identify opportunities for reassignment or escalation.
 
@@ -96,17 +96,16 @@ The Google Sheets dashboard presents key performance indicators and visualizatio
 
 ```text
 it-helpdesk-ticket-analysis/
+├── dashboard/
+│   └── dashboard_screenshot.png
 ├── sql/
 │   ├── 01_ticket_overview.sql
 │   ├── 02_resolution_analysis.sql
 │   ├── 03_technician_analysis.sql
 │   └── 04_backlog_analysis.sql
-├── dashboard/
-│   └── dashboard_screenshot.png
 └── README.md
 ```
 
-The file names above are the proposed organization for the completed queries and dashboard image.
 
 ## Conclusion
 
