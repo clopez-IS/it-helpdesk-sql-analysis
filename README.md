@@ -102,7 +102,8 @@ it-helpdesk-ticket-analysis/
 │   ├── 01_ticket_overview.sql
 │   ├── 02_resolution_analysis.sql
 │   ├── 03_technician_analysis.sql
-│   └── 04_backlog_analysis.sql
+│   ├── 04_backlog_analysis.sql
+|   ├── 05_category_risk_analysis.sql
 └── README.md
 ```
 
