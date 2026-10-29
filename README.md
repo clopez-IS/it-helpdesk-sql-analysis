@@ -90,8 +90,7 @@ Based on the findings, the following actions are recommended:
 
 The Google Sheets dashboard presents key performance indicators and visualizations covering resolution time, unresolved ticket categories, High/Critical ticket concentration, and monthly resolution trends.
 
-<img width="1216" height="620" alt="Screen Shot 2026-10-27 at 1 57 11 PM" src="https://github.com/user-attachments/assets/fbc3827c-a2f3-4fb1-84c1-b474b8fa0df7" />
-
+![IT Helpdesk Ticket Analysis Dashboard](dashboard/dashboard_screenshot.png)
 
 ## Project Structure
 
